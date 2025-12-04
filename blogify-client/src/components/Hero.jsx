@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-          Your own <span className="text-indigo-600">blogging</span>
+          Welcome to <span className="text-indigo-600">BLogify</span>
           <br />
           platform.
         </h1>
