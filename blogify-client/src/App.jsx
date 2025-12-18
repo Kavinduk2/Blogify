@@ -1,16 +1,17 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import PostCard from './components/PostCard'
-import FeaturedPosts from './components/FeaturedPost'
+import Home from './pages/Home'
+import Blog from './pages/Blog'
+
+import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
-    <>
-      <Navbar/>
-      <Hero/>
-      <FeaturedPosts/>
-    </>
+    <div>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path ='/blog'  element={<Blog/>} />
+      </Routes>
+    </div>
      
   )
 }
