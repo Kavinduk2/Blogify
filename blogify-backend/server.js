@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
+import authRoutes from './routes/auth.js';
 
 dotenv.config();
 
@@ -26,6 +27,9 @@ const connectDB = async () => {
     process.exit(1);
   }
 };
+
+// Routes
+app.use('/api/auth', authRoutes);
 
 // Basic route
 app.get('/', (req, res) => {
