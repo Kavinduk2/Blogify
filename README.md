@@ -1,6 +1,7 @@
 # 📝 AI-Powered Blog Platform
 
 ## Overview
+
 A modern blog platform that allows users to read, write, and manage blog posts, with an integrated AI feature that can automatically generate blog posts. This project is designed to make content creation faster, smarter, and more accessible.
 
 ---
@@ -8,6 +9,7 @@ A modern blog platform that allows users to read, write, and manage blog posts, 
 ## 🚀 Features
 
 ### Core Functionality
+
 - **✍️ Create, edit, and delete blog posts**
 - **🤖 AI-generated blog posts** (based on user prompts/topics)
 - **📚 View published blog posts** in a clean layout
@@ -29,19 +31,23 @@ The AI feature helps users:
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **React**
 - **HTML, CSS, JavaScript**
 - **Vite** (Build tool)
 - **Tailwind CSS** (Styling)
 
 ### Backend
+
 - **Node.js**
 - **Express.js**
 
 ### Database
+
 - **MongoDB**
 
 ### AI Integration
+
 - **OpenAI API** (or any other AI text generation service)
 
 ---
@@ -70,11 +76,13 @@ Blogify/
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn
 - MongoDB
 
 ### Step 1: Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd Blogify
@@ -83,18 +91,21 @@ cd Blogify
 ### Step 2: Install Dependencies
 
 **Backend:**
+
 ```bash
 cd blogify-backend
 npm install
 ```
 
 **Frontend:**
+
 ```bash
 cd ../blogify-client
 npm install
 ```
 
 ### Step 3: Add Environment Variables
+
 Create a `.env` file in the `blogify-backend` directory:
 
 ```env
@@ -107,12 +118,14 @@ NODE_ENV=development
 ### Step 4: Run the Project
 
 **Backend:**
+
 ```bash
 cd blogify-backend
 npm run dev
 ```
 
 **Frontend:**
+
 ```bash
 cd blogify-client
 npm run dev
